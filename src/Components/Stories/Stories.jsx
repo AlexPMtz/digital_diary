@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Stories = () => {
   return (
-    <div>
-      <h1>Soy Storeis, soy index</h1>
-    </div>
+    <>
+      <Navbar />
+      <div>
+        <h1>Digital Diary</h1>
+        <p>Medium style, simply perfect for bloggers</p>
+
+      </div>
+    </>
   )
 }
 
