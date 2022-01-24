@@ -6,6 +6,7 @@ import demo2 from '../../assets/DemoPic/2.jpg';
 import demo3 from '../../assets/DemoPic/3.jpg';
 import demo4 from '../../assets/DemoPic/4.jpg';
 import DateRead from './DateRead/DateRead';
+import Footer from '../Footer/Footer';
 
 const Stories = () => {
   return (
@@ -75,6 +76,7 @@ const Stories = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }
