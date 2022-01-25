@@ -7,11 +7,12 @@ import demo3 from '../../assets/DemoPic/3.jpg';
 import demo4 from '../../assets/DemoPic/4.jpg';
 import DateRead from './DateRead/DateRead';
 import Footer from '../Footer/Footer';
+import WithCommonMenus from '../../HOC/WithCommonMenus';
 
 const Stories = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={Styles.mainContainer}>
         <h1>Digital Diary</h1>
         <p className={Styles.subTitle + ' mb-5'}>Medium style, simply perfect for bloggers</p>
@@ -76,9 +77,9 @@ const Stories = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
 
-export default Stories
+export default WithCommonMenus(Stories)
