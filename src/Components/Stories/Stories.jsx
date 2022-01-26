@@ -7,6 +7,7 @@ import demo4 from '../../assets/DemoPic/4.jpg';
 import DateRead from './DateRead/DateRead';
 import Footer from '../Footer/Footer';
 import WithCommonMenus from '../../HOC/WithCommonMenus';
+import AllStories from './AllStories/AllStories';
 
 const Stories = () => {
   return (
@@ -19,71 +20,70 @@ const Stories = () => {
         <hr></hr>
 
         <div className='d-flex'>
-          <div className="card mb-3 me-3" style={{ maxWidth: 540 }}>
+          <div className="card mb-3 me-3">
             <div className="row g-0">
-            <div className="col-md-4">
-                <img className="img-fluid rounded-start" src={demo1} style={{ height: 258 }} />
+              <div className="col-md-4">
+                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={demo1}  />
               </div>
               <div className="col-md-8 d-flex flex-column">
                 <div className="card-body">
                   <h5 className={Styles.cardTitle}>We're living some strange times</h5>
                   <p className={Styles.cardDescription}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <DateRead name={"Steve"}/>
+                <DateRead name={"Steve"} />
               </div>
             </div>
           </div>
 
-          <div className="card mb-3" style={{ maxWidth: 540 }}>
+          <div className="card mb-3">
             <div className="row g-0">
-            <div className="col-md-4">
-                <img className="img-fluid rounded-start" src={demo2} style={{ height: 258 }} />
+              <div className="col-md-4">
+                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={demo2}/>
               </div>
               <div className="col-md-8 d-flex flex-column">
                 <div className="card-body">
                   <h5 className={Styles.cardTitle}>Dreaming of Las Vegas Crazyness</h5>
                   <p className={Styles.cardDescription}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <DateRead name={"Mary"}/>
+                <DateRead name={"Mary"} />
               </div>
             </div>
           </div>
         </div>
 
         <div className="d-flex">
-          <div className="card mb-3 me-3" style={{ maxWidth: 540 }}>
+          <div className="card mb-3 me-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img className="img-fluid rounded-start" src={demo3} style={{ height: 258 }} />
+                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={demo3}/>{/* TODO:fix image grid :( */}
               </div>
               <div className="col-md-8 d-flex flex-column">
                 <div className="card-body">
                   <h5 className={Styles.cardTitle}>The beauty of this world is in your heart</h5>
                   <p className={Styles.cardDescription}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <DateRead name={"Jane"}/>
+                <DateRead name={"Jane"} />
               </div>
             </div>
           </div>
 
-          <div className="card mb-3" style={{ maxWidth: 540 }}>
+          <div className="card mb-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img className="img-fluid rounded-start" src={demo4} style={{ height: 258 }} />
+                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={demo4}/>
               </div>
               <div className="col-md-8 d-flex flex-column">
                 <div className="card-body">
                   <h5 className={Styles.cardTitle}>San Francisco at its best view in all seasons</h5>
                   <p className={Styles.cardDescription}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <DateRead name={"Sal"}/>
+                <DateRead name={"Sal"} />
               </div>
             </div>
           </div>
         </div>
 
-        <span className={Styles.titleLabel}>All Stories</span>
-        <hr></hr> 
+        <AllStories />
 
       </div>
       <Footer />
