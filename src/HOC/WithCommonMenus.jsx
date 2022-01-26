@@ -12,7 +12,6 @@ export default function WithCommonMenus(Component){
         <div className={Styles.componentContainer}>
           <Component {...props} />
         </div>
-        <Footer/>
       </div>
     )
   }
