@@ -2,8 +2,8 @@ import React from 'react'
 import Styles from './Stories.module.css';
 import demo1 from '../../assets/DemoPic/1.jpg';
 import demo2 from '../../assets/DemoPic/2.jpg';
-import demo3 from '../../assets/DemoPic/3.jpg';
 import demo4 from '../../assets/DemoPic/4.jpg';
+import road from '../../assets/DemoPic/road.jpg';
 import DateRead from './DateRead/DateRead';
 import Footer from '../Footer/Footer';
 import WithCommonMenus from '../../HOC/WithCommonMenus';
@@ -12,7 +12,7 @@ import AllStories from './AllStories/AllStories';
 const Stories = () => {
   return (
     <>
-      <div className={Styles.mainContainer}>
+      <div className='container-lg' style={{marginTop: 100}}>
         <h1>Digital Diary</h1>
         <p className={Styles.subTitle + ' mb-5'}>Medium style, simply perfect for bloggers</p>
 
@@ -55,7 +55,7 @@ const Stories = () => {
           <div className="card mb-3 me-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={demo3}/>{/* TODO:fix image grid :( */}
+                <img className={Styles.imageContainer + " img-fluid rounded-start"} src={road}/>
               </div>
               <div className="col-md-8 d-flex flex-column">
                 <div className="card-body">
