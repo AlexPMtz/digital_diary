@@ -20,9 +20,13 @@ const Author = () => {
               <div className='col-md-10 col-sx-12'>
                 <h5 className={Styles.titleLabel + " card-title"}>Sal</h5>
                 <p className={Styles.cardDescription + " card-text"}>I professionally develop premium themes, templates & scripts since the Apocalypse (2012). You can reach me out on the social links below.</p>
-                <div className="">
-                  <img src={facebook} style={{ width: 22, height: 22, marginRight: 10 }} href="https://www.facebook.com" />
-                  <img src={google} style={{ width: 24, height: 24 }} href="" />
+                <div>
+                  <a href="https://www.facebook.com/">
+                    <img src={facebook} style={{ width: 22, height: 22, marginRight: 10 }}/>
+                  </a>
+                  <a href="https://myaccount.google.com/intro/profile">
+                    <img src={google} style={{ width: 24, height: 24 }} />
+                  </a>
                 </div>
               </div>
               <div className='col-md-2 col-xs-12'>
