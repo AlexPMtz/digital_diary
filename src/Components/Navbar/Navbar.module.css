@@ -13,7 +13,7 @@
 .items{
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .links {
@@ -27,4 +27,11 @@
 
 .noUnderline{
   text-decoration: none;
+}
+
+.search{
+  border-radius: 20px;
+  border-color: lightgray;
+  max-width: 180px;
+  max-height: 30px;
 }
