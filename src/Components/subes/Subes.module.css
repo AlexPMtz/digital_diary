@@ -1,0 +1,13 @@
+.rotate{
+  transform: rotate(-90deg);
+  margin:0 5px 0 5px;
+}
+
+.labels{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}

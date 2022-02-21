@@ -8,10 +8,10 @@ const Navbar = () => {
     <div className={"nav " + Styles.mainContainer}>
       <div className={Styles.items + " container-lg"}>
         <img style={{ height: 48, width: 128 }} src={icon} />
-        <div className='d-flex'>
+        <div className='d-flex align-items-center'>
           <span className={Styles.links}>Trámites</span>
           <span className={Styles.links}>Gobierno</span>
-          <img style={{ height: 16, width: 16, color:'white' }} src={search} />
+          <img style={{ height: 20, width: 20, color:'white' }} src={search} />
         </div>
       </div>
     </div>

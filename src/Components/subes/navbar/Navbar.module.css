@@ -1,13 +1,11 @@
 .mainContainer{
   background-color: #0C231E;
-  box-shadow: 0 0px 1px gray;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  position: relative;
   width: 100%;
-  z-index: 1;
 }
 
 .items{
@@ -19,18 +17,8 @@
 .links {
   color: #fff;
   cursor: pointer;
-  font-family: 'Montserrat';
-  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
   margin: 0 15px;
-}
-
-.noUnderline{
   text-decoration: none;
-}
-
-.search{
-  border-radius: 20px;
-  border-color: lightgray;
-  max-width: 180px;
-  max-height: 30px;
 }
