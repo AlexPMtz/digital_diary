@@ -1,0 +1,36 @@
+.mainContainer{
+  background-color: #0C231E;
+  box-shadow: 0 0px 1px gray;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.noUnderline{
+  text-decoration: none;
+}
+
+.search{
+  border-radius: 20px;
+  border-color: lightgray;
+  max-width: 180px;
+  max-height: 30px;
+}
